@@ -6,7 +6,6 @@ KPU_WIDTH, KPU_HEIGHT = 1280, 1024
 def handle_events():
     # fill here
     global running
-    global x, y
 
     events = get_events()
     for event in events:
